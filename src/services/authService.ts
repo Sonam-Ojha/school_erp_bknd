@@ -1,5 +1,5 @@
-import { db } from "../utils/db";
-import { decryptText } from "../utils/crypto"
+import { db } from "../config/db";
+import { decryptText } from "../config/crypto"
 
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
